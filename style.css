@@ -35,6 +35,10 @@ font-family: 'Raleway', sans-serif;
     padding: 10px;
     opacity: 1;
 }
+.removing{
+    opacity: 0;
+    display: hidden;
+}
 .navright button{
     background-color: rgb(155, 107, 201);
     padding: 20px;
@@ -58,6 +62,7 @@ font-family: 'Raleway', sans-serif;
     background-color: beige;
     transition: all 1.5s;
 }
+
 .footer-fadded{
     font-size: 6em;
     position: absolute;

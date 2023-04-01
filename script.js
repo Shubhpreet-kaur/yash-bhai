@@ -3,11 +3,14 @@ const x=document.querySelector('.main')
 const y=document.querySelector('.main2')
 const amine=document.querySelector('.cont1')
 const quote=document.querySelector('.cont2')
+const navbox=document.querySelector('.navbox')
 mybut.addEventListener('click',myfunc)
 function myfunc(){
     console.log('removed')
     x.classList.remove("active")
     y.classList.add("active")
+    // navbox.removeChild(button)
+    mybut.classList.add('removing')
     quotemake()
 }
 async function quotemake(){
