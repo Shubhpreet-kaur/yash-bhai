@@ -11,6 +11,7 @@ function myfunc(){
     y.classList.add("active")
     // navbox.removeChild(button)
     mybut.classList.add('removing')
+    navbox.classList.add('removing')
     quotemake()
 }
 async function quotemake(){

@@ -71,6 +71,8 @@ font-family: 'Raleway', sans-serif;
     color: rgb(2311,231,231);
     user-select: none;
     opacity: 0.2;
+    font-weight: bold;
+    z-index: -1;
     transform: translateY(17%) translateX(1%);
 }
 .main{
@@ -125,6 +127,7 @@ font-family: 'Raleway', sans-serif;
     /* position: relative; */
     width: 100vw;
     min-height: 100vh;
+    padding-bottom:10rem ;
 }
 .main2{
     position: absolute;
