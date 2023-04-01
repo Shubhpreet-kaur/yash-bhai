@@ -10,6 +10,9 @@ body{
     font-family: 'Delicious Handrawn', cursive;
 font-family: 'Raleway', sans-serif;
     background-color: rgb(59, 58, 58);
+    position: relative;
+    padding-bottom: 3em;
+    padding-top: 3em;
 }
 :root{
     --vb-cyan: hsl(176, 100%, 44%);
@@ -159,10 +162,19 @@ font-family: 'Raleway', sans-serif;
         flex-direction: column;
     }
     .mybut{
+        margin-top: 2em;
         visibility: none;
         display: hidden;
     }
     .footer-fadded{
         opacity: 0;
+    }
+    .heading{
+        font-size: 75px;
+    }
+}
+@media screen and (max-width:450px) {
+    .main2{
+        margin-top: -400px;
     }
 }
